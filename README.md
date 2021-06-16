@@ -10,14 +10,15 @@
   -  White
   -  RGB
 - 3.3V Power output
-- Serial Communications
-  - SPI
-  - I2C
-  - UART
-  - CAN
- - 25 GPIO Pins
- - 10 ADC Inputs
- - 1 DAC Output
+- Four Serial Interfaces
+  - 2 UART's
+  - 1 CAN
+  - 1 SPI (with a second optional configuration)
+  - 1 I2C (with a second optional configuration)
+- 23 GPIO pins
+- 19 PWC/DAC channels
+- 8 ADC channels
+- 10 Wakeup Pins
  ### Efficient Development with the Arduino IDE 
 Dual processor design eliminates the need for a host processor. Code development on the user processor using the Arduino IDE enables rapid deployment of your IoT design. 
 
