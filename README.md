@@ -1,5 +1,23 @@
 # IoTa
-The POEM Technology IoTa: the complete cellular IoT hardware development platform
-The IoTa is an open-source cellular developer board featuring the ublox SARA-R410 modem, an ARM Cortex-M0+ and an ARM Cortex-M4.
-The IoTa dual processor design frees up the designer to develop code on the final hardware without having to design in a host processor. Code development can take advantage of the Arduino IDE interface for agile project completion.
+### The IoTa is an open-source cellular developer board featuring the ublox SARA-R410 modem, an ARM Cortex-M0+ and an ARM Cortex-M4.
+### IoTa: a complete cellular IoT hardware development platform
+### *Features:*
+- [NXP ARM Cortex-M0+](https://www.nxp.com/products/processors-and-microcontrollers/arm-microcontrollers/general-purpose-mcus/kl-series-cortex-m0-plus/kinetis-kl1x-48-mhz-mainstream-small-ultra-low-power-microcontrollers-mcus-based-on-arm-cortex-m0-plus-core:KL1x)
+- [NXP ARM Cortex-M4](https://www.nxp.com/products/processors-and-microcontrollers/arm-microcontrollers/general-purpose-mcus/k-series-cortex-m4/k2x-usb/kinetis-k22-120-mhz-cost-effective-full-speed-usb-microcontrollers-mcus-based-on-arm-cortex-m4-core:K22_120)
+- Battery fuel gauge
+- LiPo charge control
+- LEDs
+  -  White
+  -  RGB
+- 3.3V Power output
+- Serial Communications
+  - SPI
+  - I2C
+  - UART
+  - CAN
+ - 25 GPIO Pins
+ - 10 ADC Inputs
+ - 1 DAC Output
+ ### Efficient Development with the Arduino IDE 
+Dual processor design eliminates the need for a host processor. Code development on the user processor using the Arduino IDE enables rapid deployment of your IoT design. 
 
