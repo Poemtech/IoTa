@@ -22,3 +22,4 @@
  ### Efficient Development with the Arduino IDE 
 Dual processor design eliminates the need for a host processor. Code development on the user processor using the Arduino IDE enables rapid deployment of your IoT design. 
 
+![oshw_facts (1)](https://user-images.githubusercontent.com/5782128/123847974-2a140e80-d8e5-11eb-8fb6-7d4da64767a7.png)
