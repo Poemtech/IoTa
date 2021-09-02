@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{722265c3-3f09-4c88-a6ec-b9565506a3c3}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)iota_system\boards.txt" />
+    <Text Include="$(MSBuildThisFileDirectory)iota_system\platform.txt" />
+    <Text Include="$(MSBuildThisFileDirectory)iota_system\programmers.txt" />
+    <Text Include="$(MSBuildThisFileDirectory)readme.txt" />
+    <Text Include="$(MSBuildThisFileDirectory)library.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\avr\dtostrf.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Clock.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\CopyToRam.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\delay.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\EZPort.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Flash.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\FlashCommandSequence.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\FlashEraseSector.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\FlashProgram.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\FlashStore.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_adc16_hal.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_i2c_hal.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_lpuart_hal.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_pit_hal.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_rtc_hal.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_sim_hal_MKL17Z4.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_spi_hal.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_tpm_hal.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\itoa.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Lpuart.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\main.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\MCUFlash.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Print.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\RingBuffer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Spi.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\SPIFlash.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\SSTFlash.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\startup.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Stream.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\System.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\system_MKL17Z4.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Tricolor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Updater.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\WInterrupts.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Wire.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\wiring.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\wiring_analog.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\wiring_digital.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\wiring_shift.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\WMath.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\WString.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\WVariant.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\hal\ArduinoCloud.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\hal\ArduinoModem.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\hal\ArduinoUBlox.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\hal\UBloxStream.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\sdk\cloud\Cloud.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\sdk\network\modem\Modem.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\sdk\network\Network.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\sdk\network\ublox\UBlox.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)iota_system\variants\iota_system\variant.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Arduino.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\arm_common_tables.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\arm_const_structs.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\arm_math.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\avr\dtostrf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\avr\io.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\avr\pgmspace.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Clock.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\core_cm0plus.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\core_cmFunc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\core_cmInstr.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\core_cmSimd.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\delay.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\EZPort.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Flash.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\FlashStore.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\FTFx_KX_flash_config.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_adc16_hal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_device_registers.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_i2c_hal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_lpuart_hal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_pit_hal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_rtc_hal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_sim_hal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_sim_hal_MKL17Z4.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_spi_hal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\hal\fsl_tpm_hal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\itoa.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Lpuart.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\MCUFlash.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\MKL17Z4\include\fsl_bitaccess.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\MKL17Z4\include\MKL17Z4.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\MKL17Z4\include\MKL17Z4_extension.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\MKL17Z4\include\MKL17Z4_features.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Print.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Printable.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\RingBuffer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Spi.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\SPIFlash.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\SSD_FTFx.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\SSD_FTFx_Common.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\SSD_FTFx_Internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\SSD_Types.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\SSTFlash.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\startup.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Stream.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\System.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\system_MKL17Z4.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Tricolor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Updater.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\WCharacter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\WInterrupts.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\Wire.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\wiring.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\wiring_analog.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\wiring_constants.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\wiring_digital.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\wiring_shift.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\WMath.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\WString.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\cores\arduino\WVariant.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\hal\ArduinoCloud.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\hal\ArduinoModem.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\hal\ArduinoUBlox.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\hal\UBloxStream.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\HologramSystem.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\sdk\Authentication.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\sdk\cloud\Cloud.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\sdk\network\modem\Modem.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\sdk\network\Network.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\src\sdk\network\ublox\UBlox.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)iota_system\variants\iota_system\variant.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\examples\hologram_at\hologram_at.ino" />
+    <None Include="$(MSBuildThisFileDirectory)iota_system\libraries\HologramSystem\examples\hologram_uart\hologram_uart.ino" />
+    <None Include="$(MSBuildThisFileDirectory)iota_system\variants\iota_system\iota_system.ld" />
+  </ItemGroup>
+</Project>

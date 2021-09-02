@@ -1,0 +1,40 @@
+#
+#  boards.txt - Arduino board definitions for POEM Technology IoTa System MCU
+#
+#  https://poemtechnology.com
+#
+#  Copyright (c) 2017 Konekt, Inc.  All rights reserved.
+#
+#  This library is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU Lesser General Public
+#  License as published by the Free Software Foundation; either
+#  version 2.1 of the License, or (at your option) any later version.
+#
+#  This library is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#  Lesser General Public License for more details.
+#
+#  You should have received a copy of the GNU Lesser General Public
+#  License along with this library; if not, write to the Free Software
+#  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+#
+menu.cpu_speed=CPU Speed
+
+iota_system.menu.cpu_speed.speed48=48MHz
+iota_system.menu.cpu_speed.speed4=4MHz
+iota_system.name=IoTa System
+iota_system.build.mcu=cortex-m0plus
+iota_system.build.f_cpu=48000000L
+iota_system.build.board=IOTA_SYSTEM
+iota_system.build.core=arduino
+iota_system.build.variant=iota_system
+iota_system.build.extra_flags=-DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL17Z256VFM4 -DNDEBUG
+iota_system.build.ldscript=iota_system.ld
+iota_system.build.variant_system_lib=
+iota_system.compiler.c.elf.extra_flags=
+iota_system.upload.tool=holosysloaderusb
+iota_system.upload.maximum_size=237244
+iota_system.menu.cpu_speed.speed48.build.clock_setup=-DCLOCK_SETUP=0
+iota_system.menu.cpu_speed.speed4.build.clock_setup=-DCLOCK_SETUP=1
+

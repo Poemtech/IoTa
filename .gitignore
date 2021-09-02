@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.suo
+/.vs
+/Software/iota-system-firmware-master/IoTaSystemATCommands/IoTaSystemATCommands.vcxproj.user
+/Software/iota-system-firmware-master/IoTaSystemATCommands/IoTaSystemATCommands.vcxproj.filters
+/Software/iota-system-firmware-master/IoTaSystemATCommands/IoTaSystemATCommands.vcxproj
+/Software/iota-system-firmware-master/IoTaSystemATCommands/__vm
