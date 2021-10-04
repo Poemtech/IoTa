@@ -8,3 +8,6 @@
 /Software/iota-system-firmware-master/IoTaSystemATCommands/IoTaSystemATCommands.vcxproj.filters
 /Software/iota-system-firmware-master/IoTaSystemATCommands/IoTaSystemATCommands.vcxproj
 /Software/iota-system-firmware-master/IoTaSystemATCommands/__vm
+/Software/iota-user-firmware-master/.vs/iota-user-firmware-master/v16
+/Software/iota-user-firmware-master/PowerShellTools/obj/Debug
+*.bin

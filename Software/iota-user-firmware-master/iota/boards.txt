@@ -1,0 +1,35 @@
+menu.cpu_speed=CPU Speed
+menu.check_update=Firmware Updates
+menu.spi_select=SPI
+
+iota.menu.cpu_speed.speed120=120MHz
+iota.menu.cpu_speed.speed100=100MHz
+iota.menu.cpu_speed.speed48=48MHz
+iota.menu.check_update.check=Check
+iota.menu.check_update.skip=Skip
+iota.menu.check_update.custom=Custom Firmware
+iota.menu.spi_select.spi=SPI
+iota.menu.spi_select.alt=ALT SPI
+iota.name=IoTa
+iota.build.mcu=cortex-m4
+iota.build.board=IOTA
+iota.build.core=arduino
+iota.build.variant=iota
+iota.build.extra_flags=-mfloat-abi=hard -mfpu=fpv4-sp-d16 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MK22FN512VLH12 -DNDEBUG
+iota.build.ldscript=iota.ld
+iota.build.variant_system_lib=
+iota.compiler.c.elf.extra_flags=-mfloat-abi=hard -mfpu=fpv4-sp-d16
+iota.upload.tool=konektloader
+iota.upload.flags=
+iota.upload.maximum_size=719872
+iota.menu.cpu_speed.speed48.build.clock_setup=-DCLOCK_SETUP=0
+iota.menu.cpu_speed.speed100.build.clock_setup=-DCLOCK_SETUP=1
+iota.menu.cpu_speed.speed120.build.clock_setup=-DCLOCK_SETUP=2
+iota.menu.check_update.check.upload.update_check=
+iota.menu.check_update.skip.upload.update_check=--nocheck
+iota.menu.check_update.custom.upload.update_check=--nocheck
+iota.menu.check_update.check.build.use_hologram_cloud=-DUSE_HOLOGRAM_CLOUD
+iota.menu.check_update.skip.build.use_hologram_cloud=-DUSE_HOLOGRAM_CLOUD
+iota.menu.check_update.custom.build.use_hologram_cloud=
+iota.menu.spi_select.spi.build.spi_selection=
+iota.menu.spi_select.alt.build.spi_selection=-DALT_SPI

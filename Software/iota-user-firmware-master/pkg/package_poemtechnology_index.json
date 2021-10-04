@@ -1,0 +1,71 @@
+{
+    "packages": [
+        {
+            "name": "iota",
+            "maintainer": "POEM Technology",
+            "websiteURL": "https://poemtechnology.com/contact/",
+            "email": "support@poemtechnology.com",
+            "platforms": [
+                {
+                    "name": "POEM Technology IoTa",
+                    "architecture": "sam",
+                    "version": "1.0.0",
+                    "category": "Contributed",
+                    "help": {
+                        "online": "https://hologram.io/docs/reference/dash/api"
+                    },
+                    "url": "",
+                    "archiveFileName": "",
+                    "checksum": "",
+                    "size": 0,
+                    "boards": [
+                        {
+                            "name": "POEM Technology IoTa"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "4.8.3-2014q1"
+                        },
+                        {
+                            "packager": "konekt",
+                            "name": "dashupdater",
+                            "version": "0.7.3"
+                        }
+                    ]
+                }
+            ],
+            "tools": [
+                {
+                    "name": "dashupdater",
+                    "version": "0.7.3",
+                    "systems": [
+                        {
+                            "host": "x86_64-linux-gnu",
+                            "url": "http://downloads.konekt.io/dash/updater/dashupdater-0.7.3-x86_64-pc-linux-gnu.tar.bz2",
+                            "archiveFileName": "dashupdater-0.7.3-x86_64-pc-linux-gnu.tar.bz2",
+                            "size": "9658635",
+                            "checksum": "SHA-256:144ca8eda7532d1cf6b4295bfcf78a2e97e5e56dfcc3f3bbfbe3e8a8ba1f0d5b"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "http://downloads.konekt.io/dash/updater/dashupdater-0.7.3-i686-mingw32.tar.bz2",
+                            "archiveFileName": "dashupdater-0.7.3-i686-mingw32.tar.bz2",
+                            "size": "9380173",
+                            "checksum": "SHA-256:0cb7bd6ea6659ba81fd962a447f4eff080229a35ae4aea97d759db7a58c425d2"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "http://downloads.konekt.io/dash/updater/dashupdater-0.7.3-x86_64-apple-darwin.tar.bz2",
+                            "archiveFileName": "dashupdater-0.7.3-x86_64-apple-darwin.tar.bz2",
+                            "size": "5517150",
+                            "checksum": "SHA-256:a594ef921036536b9e269d3fd752f07ba8b0087072571f7eecbe184805cc0611"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

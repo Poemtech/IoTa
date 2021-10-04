@@ -1,0 +1,37 @@
+Follow the guidance on this page: https://www.hackster.io/wallarug/arduino-ide-creating-custom-boards-89f7a6
+
+Note: To get IIS to serve up JSON, do this: https://blogs.msdn.microsoft.com/africaapps/2013/06/07/how-to-serve-static-json-files-from-a-windows-azure-website/
+
+https://myilevel.com/downloads/dash/arduino_integration//package_poemtechnology_index.json
+
+https://myilevel.com/downloads/dash/arduino_integration/ptdash-0.11.2.zip
+
+Get a SHA256 has of the ZIP file: (Get-FileHash ZIP filename -Algorithm SHA 256).Hash
+
+Get the size of the ZIP file: (Get-Item ZIP).Length
+
+Hosting files in GitHub can be done via the Releases feature, but is limited to 50MB files and 1GB per account.
+Hosting on corp site can be done via WordPress by setting up a "downloads" directory or subdomain.
+
+The contents of the ZIP file are the files/folders below the ptdash directory:
+	/cores
+	/libraries
+	/variants
+	boards.txt
+	platform.txt
+	programmers.txt
+
+Changed VM compiler settings to remove deep search for libraries.
+
+To work on the PT Dash library at the same time as using another verison of the library, create a TFS/VS workspace in
+the Arduino documents directory (e.g. C:\Users\<usernmae>\Documents\Arduino\hardware\ptdash-user-firmware-working) and
+get and work in that directory. Note: Be sure to select the correct PT Dash version (i.e. look for your working forlder)
+before bulding a test harness. Also, the name matters. Make sure it starts with the boards name.
+
+There are name collisions between boards that have the same name. So, The POEM Technology Dash is called the "ptdash" and
+the working (i.e. development) version is called "ptdashdev". This mainly impacts the boards.txt file and requires that any
+item with the name "ptdashdev" needs to be renamed to "ptdash" as part of the packaging process. Also, a working version of
+the PTDash board needs to be installed in order for the programmers to be found by the development environment (as of 
+2020-02-10).
+
+PS replacement magic for baords.txt: PS> Get-Content boards.txt | Select-String ptdashdev | % { $_.Line.replace("dev", "").replace("DEV", "").replace("Dev", "") }
