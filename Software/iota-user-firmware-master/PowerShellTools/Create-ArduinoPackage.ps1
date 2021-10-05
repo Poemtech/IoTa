@@ -37,7 +37,7 @@ Default: User
 .PARAMETER PackageIndexFileName
 The name of the Arduino board index file to modify.
 
-Default: package_poemtechnology_index.json
+Default: package_iota_index.json
 
 .PARAMETER PackageURL
 The destintation URL where the Arduino IDE points to retrieve the package.
@@ -68,7 +68,7 @@ Param(
 	[string]$TargetToPackage = "User",
 
 	[Parameter(Mandatory=$False)]
-	[string]$PackageIndexFileName = "package_poemtechnology_index.json",
+	[string]$PackageIndexFileName = "package_iota_index.json",
 
 	[Parameter(Mandatory=$False)]
 	[string]$PackageURL = "https://github.com/Poemtech/IoTa/tree/main/Software/iota-user-firmware-master/arduino_integration",

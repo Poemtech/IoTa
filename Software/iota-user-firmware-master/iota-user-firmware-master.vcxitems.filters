@@ -192,7 +192,7 @@
     <None Include="$(MSBuildThisFileDirectory)pkg\konekt_cdc_0_7_0.inf" />
     <None Include="$(MSBuildThisFileDirectory)pkg\konekt_cdc_0_7_1.inf" />
     <None Include="$(MSBuildThisFileDirectory)pkg\LICENSE" />
-    <None Include="$(MSBuildThisFileDirectory)pkg\package_poemtechnology_index.json" />
+    <None Include="$(MSBuildThisFileDirectory)pkg\package_iota_index.json" />
     <None Include="$(MSBuildThisFileDirectory)pkg\README.md" />
     <None Include="$(MSBuildThisFileDirectory)TestUserMCU\TestUserMCU.vcxproj" />
     <None Include="$(MSBuildThisFileDirectory)README.md" />
