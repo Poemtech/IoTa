@@ -42,7 +42,7 @@ Default: package_iota_index.json
 .PARAMETER PackageURL
 The destintation URL where the Arduino IDE points to retrieve the package.
 
-Default: https://github.com/Poemtech/IoTa/tree/main/Software/iota-user-firmware-master/arduino_integration
+Default: https://github.com/Poemtech/IoTa/raw/main/Software/iota-user-firmware-master/arduino_integration/iota-1.0.0.zip
 
 .PARAMETER WhatIf
 Switch that, if sepcified, shows what the script will do without creating or modifying any files.
@@ -71,7 +71,7 @@ Param(
 	[string]$PackageIndexFileName = "package_iota_index.json",
 
 	[Parameter(Mandatory=$False)]
-	[string]$PackageURL = "https://github.com/Poemtech/IoTa/tree/main/Software/iota-user-firmware-master/arduino_integration",
+	[string]$PackageURL = "https://github.com/Poemtech/IoTa/raw/main/Software/iota-user-firmware-master/arduino_integration",
 
 	[Parameter(Mandatory=$False)]
 	[switch]$WhatIf = $false

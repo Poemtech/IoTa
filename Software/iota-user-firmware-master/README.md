@@ -5,7 +5,7 @@ Needs Arduino IDE version 1.8.0 and up.
 
 ## Installation
 To set up the Arduino IDE environment for working with the POEM Technology IoTa board, add
-https://github.com/Poemtech/IoTa/tree/main/Software/iota-user-firmware-master/arduino_integration/package_poemtechnology_index.json
+https://github.com/Poemtech/IoTa/tree/main/Software/iota-user-firmware-master/arduino_integration/package_iota_index.json
 to your Arduino IDE board manager.
 
 

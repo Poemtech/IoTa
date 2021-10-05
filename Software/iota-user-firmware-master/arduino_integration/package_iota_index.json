@@ -14,9 +14,9 @@
                     "help": {
                         "online": "https://hologram.io/docs/reference/dash/api"
                     },
-                    "url": "https://github.com/Poemtech/IoTa/tree/main/Software/iota-user-firmware-master/arduino_integration/iota-1.0.0.zip",
+                    "url": "https://github.com/Poemtech/IoTa/raw/main/Software/iota-user-firmware-master/arduino_integration/iota-1.0.0.zip",
                     "archiveFileName": "iota-1.0.0.zip",
-                    "checksum": "SHA-256:6B3F9D0008CA8D43CC0EABE7E97C015617E56B9B3E289A5F8A13C39EB11B2B34",
+                    "checksum": "SHA-256:90A4ADDE8283B269B6820C7511EBB20C183DCD72DEE8DD5E5A24DCE1CF711720",
                     "size": 812864,
                     "boards": [
                         {
