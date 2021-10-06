@@ -10,8 +10,15 @@ Get a SHA256 has of the ZIP file: (Get-FileHash ZIP filename -Algorithm SHA 256)
 
 Get the size of the ZIP file: (Get-Item ZIP).Length
 
-Hosting files in GitHub can be done via the Releases feature, but is limited to 50MB files and 1GB per account.
-Hosting on corp site can be done via WordPress by setting up a "downloads" directory or subdomain.
+Create Package
+--------------
+To create a package, run the Create-ArduinoPackage.ps1 -Version <version> from Powershell. Change to the directory
+where Create-ArduinoPackage.ps1 is before running as the path defaults are based off of that location.
+
+Deploy Package
+--------------
+Package hosting on corp site can be managed via SiteGround by copying the contents of the "arduino_integration" folder to the corp site folder
+under "/poemtechnology.com/public_html/downloads/iota/arduino_integration".
 
 The contents of the ZIP file are the files/folders below the ptdash directory:
 	/cores
