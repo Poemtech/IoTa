@@ -30,7 +30,7 @@
                             "version": "4.8.3-2014q1"
                         },
                         {
-                            "packager": "konekt",
+                            "packager": "iota",
                             "name": "dashupdater",
                             "version": "0.7.3"
                         }
